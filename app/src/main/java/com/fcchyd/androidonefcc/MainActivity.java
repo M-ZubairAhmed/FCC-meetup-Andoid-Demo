@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     //Initializing Array List
     protected ArrayList<TaskData> arrayList;
     protected ListView listView;
-    protected ArrayAdapter<TaskData> arrayAdapter;
+    protected CustomArrayAdapter arrayAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         arrayList = new ArrayList<>();
-        arrayAdapter = new ArrayAdapter<TaskData>(this,android.R.layout.simple_list_item_1,arrayList);
+        arrayAdapter = new CustomArrayAdapter(this,arrayList);
         listView = (ListView)findViewById(R.id.content_main_list_view);
         listView.setAdapter(arrayAdapter);
     }
@@ -75,6 +75,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         inputTaskString = getInputTask(alertDialogView);
                         arrayList.add(new TaskData(inputTaskString));
+                        arrayAdapter.notifyDataSetChanged();
                     }
                 })
                 .create();
