@@ -8,9 +8,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    protected String inputTaskString;
+    protected EditText inputTaskEditText;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                createNewTask();
+                createNewTaskAlertDialog();
             }
         });
     }
@@ -43,19 +47,28 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    protected void createNewTask(){
+    protected void createNewTaskAlertDialog(){
+        //Inflater object
         LayoutInflater layoutInflater = LayoutInflater.from(MainActivity.this);
-        View alertDialogView = layoutInflater.inflate(R.layout.alert_dialog,null);
+        final View alertDialogView = layoutInflater.inflate(R.layout.alert_dialog,null);
         AlertDialog alertDialog = new AlertDialog.Builder(this)
                 .setView(alertDialogView)
                 .setTitle(R.string.alert_dialog_title)
                 .setPositiveButton("Add", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        //
+                        getInputTask(alertDialogView);
                     }
                 })
                 .create();
         alertDialog.show();
+    }
+
+    protected void getInputTask(View alertDialogView){
+        inputTaskEditText = (EditText) alertDialogView.findViewById(R.id.task_input_field_xml);
+        inputTaskString = inputTaskEditText.getText().toString();
+        if (inputTaskString.length() != 0){
+            Toast.makeText(getApplicationContext(), inputTaskString, Toast.LENGTH_SHORT).show();
+        }
     }
 }
