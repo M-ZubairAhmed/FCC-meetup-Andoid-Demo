@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">fcc-Android #1</string>
+    <string name="alert_dialog_title">Add new task</string>
 </resources>
