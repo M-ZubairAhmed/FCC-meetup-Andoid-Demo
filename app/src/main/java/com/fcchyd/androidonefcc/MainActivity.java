@@ -21,9 +21,9 @@ public class MainActivity extends AppCompatActivity {
     protected String inputTaskString;
     protected EditText inputTaskEditText;
     //Initializing Array List
-    protected ArrayList<String> arrayList;
+    protected ArrayList<TaskData> arrayList;
     protected ListView listView;
-    protected ArrayAdapter<String> arrayAdapter;
+    protected ArrayAdapter<TaskData> arrayAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         arrayList = new ArrayList<>();
-        arrayAdapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,arrayList);
+        arrayAdapter = new ArrayAdapter<TaskData>(this,android.R.layout.simple_list_item_1,arrayList);
         listView = (ListView)findViewById(R.id.content_main_list_view);
         listView.setAdapter(arrayAdapter);
     }
@@ -74,10 +74,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         inputTaskString = getInputTask(alertDialogView);
-                        arrayList.add(inputTaskString);
-                        for (String element : arrayList){
-                            Log.v("AppHasInThisArrayList",element);
-                        }
+                        arrayList.add(new TaskData(inputTaskString));
                     }
                 })
                 .create();
