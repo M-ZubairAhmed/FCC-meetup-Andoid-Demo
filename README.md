@@ -1,6 +1,6 @@
-# Andoid-FCC-Demo1 [![Gitter Chatroom for freeCodeCamp-Hyderabad](http://i.imgur.com/PfqXejFm.png)](https://gitter.im/fcc-hyd/android)  [![Facebook page for freeCodeCamp-Hyderabad](http://i.imgur.com/lfYSbgtm.png)](https://www.facebook.com/freecodecamphyderabad)
-##Making a simple ToDo android app
-Demo app for freeCodeCamp's meetup on 4th March 2017.
+![Free Code Camp App logo](http://i.imgur.com/3QQy331s.png)
+# Andoid-FCC-Demo1
+Demo app for freeCodeCamp's meetup on 4th March 2017 at T-Hub, IIIT, Hyderabad, India.
 
 ##Making a simple ToDo android app
 
@@ -46,4 +46,6 @@ Demo app for freeCodeCamp's meetup on 4th March 2017.
 *    [Google developer channel](https://developers.google.com/training/courses/android-fundamentals)
 *    [Google developer training](https://developers.google.com/training/courses/android-fundamentals)
 *    [Tutorials point](https://www.tutorialspoint.com/android)
+
+[![Gitter Chatroom for freeCodeCamp-Hyderabad](http://i.imgur.com/PfqXejFm.png)](https://gitter.im/fcc-hyd/android)  [![Facebook page for freeCodeCamp-Hyderabad](http://i.imgur.com/lfYSbgtm.png)](https://www.facebook.com/freecodecamphyderabad)
      
