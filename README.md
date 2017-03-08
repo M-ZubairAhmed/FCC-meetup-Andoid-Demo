@@ -1,8 +1,9 @@
 ![Free Code Camp App logo](http://i.imgur.com/3QQy331s.png)
-# Andoid-FCC-Demo1
+# Andoid freeCodeCamp Hyderabad Demo app.
+# Simple To Do App
 Demo app for freeCodeCamp's meetup on 4th March 2017 at T-Hub, IIIT, Hyderabad, India.
 
-##Making a simple ToDo android app
+###Screenshots
 
 ![Home](http://i.imgur.com/An2UXWY.png?1)![New task](http://i.imgur.com/1YZsp5C.png?1)
 
