@@ -1,5 +1,5 @@
 ![Free Code Camp App logo](http://i.imgur.com/3QQy331s.png)
-# Andoid freeCodeCamp Hyderabad Demo app.
+# Android freeCodeCamp Hyderabad Demo app.
 # Simple To Do App
 Demo app for freeCodeCamp's meetup on 4th March 2017 at T-Hub, IIIT, Hyderabad, India.
 
