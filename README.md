@@ -1,8 +1,10 @@
 # Andoid-FCC-Demo1
-Demo app for freeCodeCamp's meetup on 3rd March 2017.
-##Simple ToDo app
+Demo app for freeCodeCamp's meetup on 4th March 2017.
 
-![New task](http://i.imgur.com/1YZsp5C.png?1) ![Home](http://i.imgur.com/An2UXWY.png?1)
+[![Gitter Chatroom for freeCodeCamp-Hyderabad](http://i.imgur.com/PfqXejFm.png)](https://gitter.im/fcc-hyd/android)  [![Facebook page for freeCodeCamp-Hyderabad](http://i.imgur.com/lfYSbgtm.png)](https://www.facebook.com/freecodecamphyderabad)
+##Making a simple ToDo android app
+
+![Home](http://i.imgur.com/An2UXWY.png?1)![New task](http://i.imgur.com/1YZsp5C.png?1) 
 
 ###Code Along Sequence
 1.  [Activity Life Cycle demo](https://github.com/M-ZubairAhmed/Android-LifeCycle-demo)
@@ -32,7 +34,12 @@ Demo app for freeCodeCamp's meetup on 3rd March 2017.
 12.  Score for improvments
 
 ***
-####Useful Links
+####Instructions
+*   Participants are encouraged to find and solve the [issues](https://github.com/M-ZubairAhmed/Andoid-FCC-Demo1/issues) in pair programming format.
+*   This repository history exactly corresponds to steps required to build this app.
+*   Questions can be forwared to [Gitter chat room](https://gitter.im/fcc-hyd/android)
+
+#####Useful Links
 *    [Android Documentation](https://developer.android.com/index.html)
 *    [Oracle Java Documentation](https://docs.oracle.com)
 *    [Udacity Nanodegree course](https://www.udacity.com/course/android-basics-nanodegree-by-google--nd803)
