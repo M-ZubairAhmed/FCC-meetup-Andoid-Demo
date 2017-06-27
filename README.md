@@ -1,19 +1,21 @@
+
 ![Free Code Camp App logo](http://i.imgur.com/3QQy331s.png)
+
 # Android freeCodeCamp Hyderabad Demo app.
-# Simple To Do App
 Demo app for freeCodeCamp's meetup on 4th March 2017 at T-Hub, IIIT, Hyderabad, India.
 
 ### Screenshots
 
-![Home](http://i.imgur.com/An2UXWY.png?1)![New task](http://i.imgur.com/1YZsp5C.png?1)
+![Home](http://i.imgur.com/An2UXWY.png?1)   ![New task](http://i.imgur.com/1YZsp5C.png?1)
 
 ### Code Along Sequence
 1.  [Activity Life Cycle demo](https://github.com/M-ZubairAhmed/Android-LifeCycle-demo)
 2.  Action bar and Toolbar Title
 3.  Set up App Color Theme
-     * [Material Design Guidelines](https://material.io/guidelines/#introduction-principles)
-     * [Making of Material Design- Video](https://www.youtube.com/watch?v=rrT6v5sOwJg)
-     * [Material Pallet](https://www.materialpalette.com/)
+      * [Material Design Guidelines](https://material.io/guidelines/#introduction-principles)
+      * [Making of Material Design- Video](https://www.youtube.com/watch?v=rrT6v5sOwJg)
+      * [Material Pallet](https://www.materialpalette.com/)
+
 4.  App Logo and FAB icon
      * [Googles Material Icons Repo](https://github.com/google/material-design-icons)
      * [Material UI](https://www.materialui.co/icons?s=email)      
@@ -47,6 +49,8 @@ Demo app for freeCodeCamp's meetup on 4th March 2017 at T-Hub, IIIT, Hyderabad, 
 *    [Google developer channel](https://developers.google.com/training/courses/android-fundamentals)
 *    [Google developer training](https://developers.google.com/training/courses/android-fundamentals)
 *    [Tutorials point](https://www.tutorialspoint.com/android)
+* [Material Design Guidelines](https://material.io/guidelines/#introduction-principles)
+* [Making of Material Design- Video](https://www.youtube.com/watch?v=rrT6v5sOwJg)
+* [Material Pallet](https://www.materialpalette.com/)
 
 [![Gitter Chatroom for freeCodeCamp-Hyderabad](http://i.imgur.com/PfqXejFm.png)](https://gitter.im/fcc-hyd/android)  [![Facebook page for freeCodeCamp-Hyderabad](http://i.imgur.com/lfYSbgtm.png)](https://www.facebook.com/freecodecamphyderabad)
-     
